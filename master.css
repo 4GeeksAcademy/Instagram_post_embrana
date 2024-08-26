@@ -1,0 +1,63 @@
+
+body {
+  font-family: 'roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+
+  }
+
+  .header{
+    display: flex;
+    justify-content:space-between;
+    padding: 5px;
+    width: 270px;
+  }
+
+  .icon-head{
+    margin-right: 5px;
+    font-size: 20px;
+  }
+
+.post-body{
+  padding: 5px;
+}
+
+  .post-icons{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 15px;
+  }
+
+  i {
+    margin-right: 3px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .post-icons-left{
+    display: flex;
+    align-items: center;
+  }
+
+  .post-title{
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0px;
+  }
+  .post-subtitle{
+    font-size: 10px;
+    margin: 0px;
+  }
